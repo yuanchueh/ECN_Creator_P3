@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"POT-Creation-Date: 2016-06-16 11:20+PDT\n"
+"PO-Revision-Date: 2016-06-16 12:39-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: ECN_Creator_py3tkinter.py:37
+msgid "OK"
+msgstr "OK"
+
+#: ECN_Creator_py3tkinter.py:61
+msgid "Navigation "
+msgstr "Navigation "
+
+#: ECN_Creator_py3tkinter.py:74
+msgid "List item"
+msgstr "Listenpunkt"
+
+#: ECN_Creator_py3tkinter.py:88
+msgid "Unset status "
+msgstr "Unset status "
+
+#: ECN_Creator_py3tkinter.py:108
+msgid "Tool "
+msgstr "Werkzeug "
+
+#: ECN_Creator_py3tkinter.py:118
+msgid "Toolbar button"
+msgstr "Schaltfläche in der Symbolleiste"
+
+#: ECN_Creator_py3tkinter.py:118
+msgid "pressed"
+msgstr "gepresstem"
+
+#: ECN_Creator_py3tkinter.py:127
+msgid "Template"
+msgstr "Vorlage"
+
+#: ECN_Creator_py3tkinter.py:155
+msgid "New"
+msgstr "Neu"
+
+#: ECN_Creator_py3tkinter.py:156
+msgid "Open"
+msgstr "Öffnen"
+
+#: ECN_Creator_py3tkinter.py:159
+msgid "Exit"
+msgstr "Ausgang"
+
+#: ECN_Creator_py3tkinter.py:163 ECN_Creator_py3tkinter.py:170
+msgid "Help"
+msgstr "Hilfe"
+
+#: ECN_Creator_py3tkinter.py:165 ECN_Creator_py3tkinter.py:195
+msgid "About"
+msgstr "Von"
+
+#: ECN_Creator_py3tkinter.py:169
+msgid "File"
+msgstr "Feile"
+
+#: ECN_Creator_py3tkinter.py:180
+msgid "Help not yet created."
+msgstr "Hilfe noch nicht erstellt."
+
+#: ECN_Creator_py3tkinter.py:188
+msgid "No description available"
+msgstr "Keine Beschreibung verfügbar"
+
+#: ECN_Creator_py3tkinter.py:190
+msgid "Author"
+msgstr "Autor"
+
+#: ECN_Creator_py3tkinter.py:191
+msgid "Email"
+msgstr "Email"
+
+#: ECN_Creator_py3tkinter.py:192
+msgid "Version"
+msgstr "Version"
+
+#: ECN_Creator_py3tkinter.py:193
+msgid "GitHub Package"
+msgstr "GitHub -Paket"
+
+#: ECN_Creator_py3tkinter.py:201
+msgid "New button pressed"
+msgstr "Neu taste gedrückt"
+
+#: ECN_Creator_py3tkinter.py:201
+msgid "Not yet implemented"
+msgstr "Noch nicht implementiert"
+
+#: ECN_Creator_py3tkinter.py:208
+msgid "File selected for open: "
+msgstr "Datei für Open ausgewählt:"
+
+#: ECN_Creator_py3tkinter.py:210
+msgid "No file selected"
+msgstr "Keine Datei ausgewählt"
+
+#: ECN_Creator_py3tkinter.py:252
+msgid "Uptime"
+msgstr "Betriebszeit"
