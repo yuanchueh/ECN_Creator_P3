@@ -44,7 +44,8 @@ def getFolder():
     ##root.withdraw()
     ##file_path = tkFileDialog.askdirectory()
     ##file_path = "/home/yuanchueh/Documents/git/msWordReplaceImages"
-    file_path = "/run/user/1000/gvfs/smb-share:server=192.168.0.121,share=development/_Quality System/BMDK (New) 2017.08.25/_TO ECN"
+    # file_path = "/run/user/1000/gvfs/smb-share:server=192.168.0.121,share=development/_Quality System/BMDK (New) 2017.08.25/_TO ECN"
+    file_path = "/run/user/1000/gvfs/smb-share:server=192.168.0.121,share=development/Customers/01-Novian Health/AP Active Projects/To ECN - Device Master Record/MDSL TUV CE Mark ECN/PDF'd"
     return file_path
 
 
@@ -85,6 +86,15 @@ def getFileList(patternStr='*.*', file_path=None):
         counter = counter + 1
     return file_return, file_path
 
+
+def findRevision(filename):
+    for x in filename:
+        if not x.find('Rev'):
+            revision = x[3:len(x)]
+            return revision
+    return ''
+
+
 extension_type = '*.pdf'
 customernum = raw_input("Enter customer number as a number (XX): ")
 # customernum = 11
@@ -94,14 +104,14 @@ ecnnum = raw_input("Enter ECN number as a three digit number (ZZZ): ")
 # ecnnum = 001
 filename = str(customernum).zfill(2) + '-' + \
     'ECN' + str(ecnnum).zfill(3) + '.csv'
-print filename
+print(filename)
 # print
 
 filelist, filepath = getFileList(extension_type)
 # filepath = '/home/yuanchueh/Documents/git/ECN_Creator'
 fullfilename = filepath + '/' + filename
-print '  Save Directory:', fullfilename
+print('  Save Directory:', fullfilename)
 with open(fullfilename, 'wb') as myfile:
     wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
     wr.writerows(filelist)
-print "File created successfully:", fullfilename
+print("File created successfully:", fullfilename)
